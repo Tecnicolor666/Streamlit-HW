@@ -41,3 +41,21 @@ streamlit run Stream.py
 ```
 
 5. Abre un navegador y abre la dirección: http://localhost:8080
+
+## Pasos para ejecutar la aplicación web con SQL
+
+1. Los pasos son el mismo para el ambiente virtual
+
+2. Descargar desde la pagina web oficial de sqlite la version depende de tu maquina
+
+[sqlite](https://www.sqlite.org/download.html)
+
+3. Mover el sqlite a la direccion C: de tu disco
+
+4. Ejecutar el siguiente comando desde el CMD como admin
+
+```console
+setx PATH "%PATH%;C:\sqlite"
+```
+
+5. Ejecutar el .py desde el venv y agregar datos en la pagina web, se creara automaticamente en tu ruta donde tengas el py, se crea la base de datos que mostrara tus datos creados
